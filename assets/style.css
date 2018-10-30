@@ -1,6 +1,88 @@
 body{
     margin: 0px;
 }
+
+.fundo-de-tela{
+    height: 750px;
+    background-image: linear-gradient(to bottom, #F47A77, #F58E69);
+    z-index: -1;
+}
+.imagem {
+    height: 750px;
+}
+.imagem > img{
+    width: 100%;
+    height: 1500px;
+    margin-top: -400px;
+}
+#main{
+    margin: 0;
+    height: 0;
+}
+.textodomeio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 500px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.textoprincipal h1 {
+    font-size: 60pt;
+}
+.textoprincipal h1, h4 {
+    margin: 0;
+    padding: 2px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.textoprincipal h5 {
+    font-size: 13pt;
+    margin: 15px;
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.botao {
+    display: flex;
+    justify-content: center;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.botaofree {
+    position: relative;
+    bottom: 475px;
+    background-color: #1ED760;
+    display: flex;
+    justify-content: center;
+    width: 290px;
+    height: 50px;
+    border: none;
+    border-radius: 500px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
 footer{
     background-color: black;
     color: #FFFF;
