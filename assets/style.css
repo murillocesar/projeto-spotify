@@ -1,6 +1,87 @@
 body{
     margin: 0px;
 }
+.menu{
+    background-color: rgba(0,0,0, 0.6);
+    padding: 0; 
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    padding: 12px 0;
+    width: 100%
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navLinks ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: 15px;
+    font-size: 12pt;
+    font-family: 'Lato', sans-serif;
+}
+
+.navLinks{
+    padding-right: 100px;
+}
+
+.navLinks ul{
+    margin: 0;
+}
+
+.navLinks a:hover{
+    color: #1ED760;
+
+}   
+
+.iconeSpotify{
+    display: flex;
+    color: white;
+    padding-left: 100px;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.iconeSpotify h2{
+    padding-left: 5px;
+    margin: 0;
+    padding-top: 12.5px;
+    font-size: 20pt;
+}
+
+.linkdecima{
+    font-weight: bold;
+    color: white;
+}
+
+.linksCinza{
+    color: gray;
+    font-weight: bold;
+}
+
+.cinzaHref{
+    color: lightgray;
+    text-decoration: none;
+}
+
+.brancoHref{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.iconenav{
+    width: 42.5px;
+    height: 42.5px;
+    position: relative;
+    top: 8px;
+    left: 3px;
+}
 
 .fundo-de-tela{
     height: 750px;
@@ -11,7 +92,7 @@ body{
     height: 750px;
 }
 .imagem > img{
-    width: 100%;
+    width: 50%;
     height: 1500px;
     margin-top: -400px;
 }
@@ -61,11 +142,6 @@ h5 {
 .botao {
     display: flex;
     justify-content: center;
-}
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
 }
 .botaofree {
     position: relative;
