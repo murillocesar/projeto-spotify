@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+}
+footer{
+    background-color: black;
+    color: #FFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5%;
+}
+.itensFooter ul{
+    list-style: none;
+    width: 15vh;
+}
+.itensFooter h3{
+    display: flex;
+    color: #8f9395;
+    flex-wrap: nowrap;
+}
+.titulofooter{
+    display: flex;
+}
+.boxintem{
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    background-color: #8f9395;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rede{
+    width: 60%;
+}
+.icones ul{
+    display: flex;
+    list-style: none;
+    width: 20%;
+}
+.icones li{
+    margin-left: 20%;
+}
+.itensFooter li{
+    padding: 5%;
+}
+.listas{
+    display: flex;
+    width: 100vh;
+    justify-content: space-between;
+}
+.noquebra{
+    display: flex;
+    width: 66.666vh;
+    justify-content: space-around;
+    margin-right: 20vh;
+}
+
+@media screen and (max-width:930px){
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .itensFooter h3{
+        display: flex;
+        color: #8f9395;
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (max-width:650px){
+    .listas{
+        flex-wrap: wrap;
+    }
+}
